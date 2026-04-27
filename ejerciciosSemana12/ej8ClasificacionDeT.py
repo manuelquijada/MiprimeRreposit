@@ -1,0 +1,12 @@
+# Clasificacion de triangulos.
+
+a = float(input("Lado 1: "))
+b = float(input("Lado 2: "))
+c = float(input("Lado 3: "))
+
+if a == b and b == c:
+    print("Triángulo equilátero")
+elif a == b or a == c or b == c:
+    print("Triángulo isósceles")
+else:
+    print("Triángulo escaleno")
